@@ -1,13 +1,18 @@
 body {
   font-family: sans-serif;
+  /* フォントをゴシック体にする。sans-serifはゴシック体のフォント、serifは明朝体のフォントになる。 */
   max-width: 800px;
+  /* 横に伸びすぎないよう最大幅を800pxにする */
   margin: 0 auto;
+  /* 左右中央揃え */
   padding: 20px;
+  /* 上下左右に20pxの内側余白をとる */
 }
 
 /* フォームのスタイル */
 form div {
   margin-bottom: 15px;
+  /* 各フォームの項目の下に15pxの余白をとる */
 }
 
 label {
@@ -17,8 +22,8 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
+input[type="text"], /* input要素のtype属性がtextのもの */
+input[type="email"], /* input要素のtype属性がemailのもの */
 textarea {
   width: 100%;
   padding: 8px;
@@ -31,7 +36,8 @@ textarea {
 fieldset {
   border: 1px solid #ccc;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
+  border-radius: 4px;
 }
 
 legend {
